@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rentleapp1"
+        tools:targetApi="31">
+        <activity
+            android:name=".xuv"
+            android:exported="false" />
+        <activity
+            android:name=".venue"
+            android:exported="false" />
+        <activity
+            android:name=".urbancar"
+            android:exported="false" />
+        <activity
+            android:name=".nexoncar"
+            android:exported="false" />
+        <activity
+            android:name=".listsuv"
+            android:exported="false" />
+        <activity
+            android:name=".nanocar"
+            android:exported="false" />
+        <activity
+            android:name=".cpodcar"
+            android:exported="false" />
+        <activity
+            android:name=".vernacar"
+            android:exported="false" />
+        <activity
+            android:name=".tigorcar"
+            android:exported="false" />
+        <activity
+            android:name=".pickup"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".otp"
+            android:exported="false" />
+        <activity
+            android:name=".swiftbill"
+            android:exported="false" />
+        <activity
+            android:name=".cabriolet_list"
+            android:exported="false" />
+        <activity
+            android:name=".altocar"
+            android:exported="false" />
+        <activity
+            android:name=".kwidcar"
+            android:exported="false" />
+        <activity
+            android:name=".listmicro"
+            android:exported="false" />
+        <activity
+            android:name=".etiouscar"
+            android:exported="false" />
+        <activity
+            android:name=".swiftcar"
+            android:exported="false" />
+        <activity
+            android:name=".microlist"
+            android:exported="false" />
+        <activity
+            android:name=".sedanlist"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage2"
+            android:exported="false" />
+        <activity
+            android:name=".sedancar"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".page2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
